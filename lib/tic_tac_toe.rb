@@ -75,3 +75,12 @@ end
 def winner(board)
     won?(board) ? board[won?(board)[0]] : nil
 end
+
+def play(board)
+    turn(board) until over?(board)
+    if won?(board)
+        puts "Congratulations #{winner(board)}!"
+    elsif draw?(board)
+        puts "Cat's Game!"
+    end
+end
