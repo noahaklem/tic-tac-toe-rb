@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
-require_relative 'flatiron_coursework/phase_0/tic_tac_toe/tic-tac-toe-rb/lib/tic_tac_toe'
+$LOAD_PATH<<'.'
+require "lib/tic_tac_toe.rb"
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
