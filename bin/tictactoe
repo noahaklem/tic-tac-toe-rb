@@ -5,7 +5,7 @@ require "lib/tic_tac_toe.rb"
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-puts "Welcome to Tic Tac Toe!"
+puts "Welcome to Tic Tac Toe in Ruby!"
 display_board(board)
 
 play(board)
